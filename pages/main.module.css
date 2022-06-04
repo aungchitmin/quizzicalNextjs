@@ -1,0 +1,86 @@
+.allquizzHolder {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.quizzHolder {
+    position: relative;
+    z-index: 1;
+}
+
+.topBlob {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 20%;
+    z-index: 0;
+}
+
+.bottomBlob {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    z-index: 0;
+}
+
+.checkButtonHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.checkButton{
+    margin: 5px;
+    padding: 15px 30px;
+    background-color: #4d5b9e;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.resultHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultText {
+    margin-left: 10px;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.homeButton, .playAgainButton{
+    display: inline-block;
+    margin: 5px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    border: none;
+    color: white;
+    background-color: #4d5b9e;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .checkButton {
+        padding: 10px 30px;
+    }
+    .resultHolder {
+        flex-direction: column;
+    }
+    .homeButton, .playAgainButton{
+        padding: 10px 30px;
+    }
+    .homeButton {
+        margin-bottom: 8px;
+    }
+}
+

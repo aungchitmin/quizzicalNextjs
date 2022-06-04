@@ -1,0 +1,15 @@
+.answer {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7.94239px;
+  font-weight: 600;
+  border: 1px solid black;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .answer {
+    padding: 9px;
+    margin: 9px;
+  }
+}
